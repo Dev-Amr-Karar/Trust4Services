@@ -525,6 +525,12 @@ nav .links .vertical-menu li:hover a {
 	}
 }
 
+@media (min-width: 992px) {
+	.landing .container .text-content {
+		width: 40%;
+	}
+}
+
 .landing .text-content h1 {
 	color: #fafafa;
 	font-size: 4vmax;
