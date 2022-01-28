@@ -1,0 +1,79 @@
+/* ========== Trust4Services Template V 1.0 ============== */
+/* ======================================================== */
+
+/* ================== Start Global Variabls ============== */
+:root {
+	--main-transition: 0.3s;
+	--vip-color: #ccb15a;
+	--vip-color-opacity: #ccb15a90;
+	--vip-color-alt: #222;
+	--padding: 80px;
+	--main-text: #666;
+	--main-text-alt: #fafafa;
+	--heading-color: #222;
+}
+/* ================== Start Global Variabls =============== */
+
+/* ======================================================== */
+
+/* Star Vip page nav */
+nav .links .info,
+nav .links .info .lang a,
+nav .links .info .lang a.active,
+nav .links .info .social a,
+nav .links > .main-menu > li > a,
+nav .info .phone,
+nav .info .lang a,
+nav .social a,
+nav .toggle-menu .mobile-menu > li > a {
+	color: var(--vip-color);
+}
+
+nav .links .main-menu,
+nav .toggle-menu .mobile-menu > li,
+nav .toggle-menu:hover .mobile-menu {
+	border-color: var(--vip-color);
+}
+
+nav .links > .main-menu > li > a {
+	color: var(--vip-color-alt);
+}
+
+nav .links > .main-menu > li > .active::after {
+	background-color: var(--vip-color);
+}
+
+nav .links .vertical-menu {
+	background-color: var(--vip-color-opacity);
+	border-top-color: var(--vip-color);
+}
+
+nav .toggle-menu .icon span {
+	background-color: var(--vip-color);
+}
+
+nav .toggle-menu .mobile-menu::after {
+	border-color: var(--vip-color) transparent transparent transparent;
+}
+
+nav .toggle-menu .mobile-menu > li > a:hover {
+	background-color: var(--vip-color-opacity);
+}
+
+nav .toggle-menu .vertical-menu {
+	background-color: var(--vip-color-opacity);
+}
+
+/* End Vip page nav */
+
+/* Start Vip Landing page */
+
+.landing .text-content .box a:first-of-type {
+	background-color: var(--home-color);
+}
+
+.landing .text-content .box a:last-of-type:hover {
+	background-color: var(--home-color);
+}
+
+/* End Vip Landing page */
